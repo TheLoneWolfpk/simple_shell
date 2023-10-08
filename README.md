@@ -1,4 +1,4 @@
-i# Simple_Shell
+# Simple_Shell
 
 ## Checks
 The Checker will be released at the end of the project (1-2 days before the deadline). We strongly encoura
