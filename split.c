@@ -118,12 +118,11 @@ void go_next(sep_list **list_s, line_list **list_l, data_shell *datash)
 	/**
 	 * split_commands - split command lines according to
 	 * the separators ;, | and &, and executes them
-	 *
 	 * @datash: data structure
 	 * @input: input string
 	 * Return: 0 to exit, 1 to continue
 	 */
-	int split_commands(data_shell *datsh, char *input)
+	int split_commands(data_shell *datash, char *input)
 	{
 		sep_list *head_s, *list_s;
 		line_list *head_l, *list_l;
