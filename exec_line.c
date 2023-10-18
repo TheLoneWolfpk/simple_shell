@@ -13,7 +13,7 @@ int exec_line(data_shell *datash)
 
 	builtin = get_builtin(datash->args[0]);
 
-	if (buitlin != NULL)
+	if (builtin != NULL)
 		return (builtin(datash));
 
 	return (cmd_exec(datash));
