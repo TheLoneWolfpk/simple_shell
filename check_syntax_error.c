@@ -125,7 +125,7 @@ void print_syntax_error(data_shell *datash, char *input, int i, int bool)
 	length = _strlen(datash->av[0]) + _strlen(counter);
 	length += _strlen(msg) + _strlen(msg2) + _strlen(msg3) + 2;
 
-	error = malloc(seizof(char) * (length + 1));
+	error = malloc(sizof(char) * (length + 1));
 	if (error == 0)
 	{
 		free(counter);
