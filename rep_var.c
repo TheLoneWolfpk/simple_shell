@@ -140,10 +140,10 @@ char *replaced_input(r_var **head, char *input, char *new_input, int nlen)
 char *rep_var(char *input, data_shell *datash)
 {
 	r_var *head, *indx;
-	char *status, *new_innput;
+	char *status, *new_input;
 	int olen, nlen;
 
-	status = aux_itoa(datsh->status);
+	status = aux_itoa(datash->status);
 	head = NULL;
 
 	olen = check_vars(&head, input, status, datash);
