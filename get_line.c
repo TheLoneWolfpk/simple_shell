@@ -20,7 +20,7 @@ void bring_line(char **lineptr, size_t *n, char *buffer, size_t j)
 	else if (*n < j)
 	{
 		if (j > BUFSIZE)
-			*n =j;
+			*n = j;
 		else
 			*n = BUFSIZE;
 		*lineptr = buffer;
@@ -35,7 +35,7 @@ void bring_line(char **lineptr, size_t *n, char *buffer, size_t j)
  * get_line - Read input from stream
  * @lineptr: buffer that store the input
  * @n: size of line
- * @sream: stream to read from
+ * @stream: stream to read from
  * Return: the number of bytes
  */
 ssize_t get_line(char **lineptr, size_t *n, FILE *stream)
