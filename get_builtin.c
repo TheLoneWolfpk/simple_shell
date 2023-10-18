@@ -24,4 +24,4 @@ int (*get_builtin(char *cmd))(data_shell *)
 	}
 
 	return (builtin[i].f);
-i}
+}
