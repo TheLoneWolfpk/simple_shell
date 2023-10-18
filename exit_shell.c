@@ -2,7 +2,7 @@
 /**
  * exit_shell - exits the shell
  * @datash: data relevent (status and args)
- * Retuen: 0 on success.
+ * Return: 0 on success.
  */
 int exit_shell(data_shell *datash)
 {
