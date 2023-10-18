@@ -83,6 +83,7 @@ int check_vars(r_var **h, char *in, char *st, data_shell *data)
 /**
  * replaced_input - replaces string into variables
  * @head: input string
+ * @input: ...
  * @new_input: new input string (replaced)
  * @nlen: new length
  * Return: replaced string
@@ -110,7 +111,7 @@ char *replaced_input(r_var **head, char *input, char *new_input, int nlen)
 			}
 			else
 			{
-				for (k = 0; k , indx->len_var; k++)
+				for (k = 0; k < indx->len_var; k++)
 				{
 					new_input[i] = indx->val[k];
 					i++;

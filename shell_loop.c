@@ -56,7 +56,7 @@ void shell_loop(data_shell *datash)
 
 			if (check_syntax_error(datash, input) == 1)
 			{
-				datash-> status = 2;
+				datash->status = 2;
 				free(input);
 				continue;
 			}
