@@ -61,7 +61,7 @@ void shell_loop(data_shell *datash)
 				continue;
 			}
 			input = rep_var(input, datash);
-			loop = split_commands(datsh, input);
+			loop = split_commands(datash, input);
 			datash->counter += 1;
 			free(input);
 		}
